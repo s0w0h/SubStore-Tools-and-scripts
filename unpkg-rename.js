@@ -643,7 +643,7 @@ var locationList = [
 			zh: "阿富汗",
 			enShort: "AF",
 			enFull: "Afghanistan",
-			reg: "AF|Afghanistan",
+			reg: "AF|Afghanistan|阿富汗",
 			enShortThree: "AFG",
 		},
 		{
@@ -665,7 +665,7 @@ var locationList = [
 			zh: "安哥拉",
 			enShort: "AO",
 			enFull: "Angola",
-			reg: "AO|Angola",
+			reg: "AO|Angola|安哥拉",
 			enShortThree: "AGO",
 		},
 		{
