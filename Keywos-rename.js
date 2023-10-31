@@ -908,7 +908,7 @@ const QC = [
 	"Timor-Leste",
 ];
 const specialRegex = [
-	/(\d\.)?\d+×/,
+	/(\d\.)?\d+x/,
 	/IPLC|IEPL|Kern|Edge|Pro|Std|Exp|Biz|Fam|Game|Buy|Zx|LB|Game/,
 ];
 const nameclear =
@@ -1089,7 +1089,7 @@ function operator(pro) {
 			if (match) {
 				const rev = match[0].match(/(\d[\d.]*)/)[0];
 				if (rev !== "1") {
-					const newValue = rev + "×";
+					const newValue = rev + "x";
 					ikey = newValue;
 				}
 			}
